@@ -11,10 +11,10 @@ export default function Home() {
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-            ElevatED Dashboard
+            ElevatED Team Analytics
           </h1>
           <p className="text-lg text-muted max-w-2xl mx-auto">
-            Track your college application journey and financial planning progress
+            Internal metrics dashboard for tracking user engagement, marketing performance, and business growth
           </p>
         </section>
 
@@ -24,12 +24,12 @@ export default function Home() {
             <CardHeader>
               <div className="flex items-center space-x-3">
                 <School className="w-6 h-6 text-blue-600" />
-                <CardTitle className="text-lg text-default">Applications</CardTitle>
+                <CardTitle className="text-lg text-default">User Acquisition</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-muted">
-                Track college applications and deadlines
+                Monitor application submissions and conversion rates
               </p>
             </CardContent>
           </Card>
@@ -38,12 +38,12 @@ export default function Home() {
             <CardHeader>
               <div className="flex items-center space-x-3">
                 <DollarSign className="w-6 h-6 text-green-600" />
-                <CardTitle className="text-lg text-default">Financial Aid</CardTitle>
+                <CardTitle className="text-lg text-default">Revenue Metrics</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-muted">
-                Monitor scholarships and aid opportunities
+                Track financial performance and growth
               </p>
             </CardContent>
           </Card>
@@ -52,12 +52,12 @@ export default function Home() {
             <CardHeader>
               <div className="flex items-center space-x-3">
                 <Brain className="w-6 h-6 text-purple-600" />
-                <CardTitle className="text-lg text-default">AI Guidance</CardTitle>
+                <CardTitle className="text-lg text-default">AI Performance</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-muted">
-                Personalized recommendations and support
+                Monitor AI system effectiveness and usage
               </p>
             </CardContent>
           </Card>
@@ -66,12 +66,12 @@ export default function Home() {
             <CardHeader>
               <div className="flex items-center space-x-3">
                 <Users className="w-6 h-6 text-red-600" />
-                <CardTitle className="text-lg text-default">Community</CardTitle>
+                <CardTitle className="text-lg text-default">User Engagement</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-muted">
-                Connect with peers and share experiences
+                Analyze user activity and retention metrics
               </p>
             </CardContent>
           </Card>
@@ -81,7 +81,7 @@ export default function Home() {
         <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-16">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-default">
             <TrendingUp className="w-6 h-6 text-blue-600" />
-            Progress Overview
+            Performance Analytics
           </h2>
           <InteractiveDashboard />
         </section>
@@ -90,7 +90,7 @@ export default function Home() {
         <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-default">
             <Target className="w-6 h-6 text-blue-600" />
-            Strategic Goals & Metrics
+            KPIs & Business Objectives
           </h2>
           <MetricsAndGoalsDashboard />
         </section>
@@ -99,7 +99,7 @@ export default function Home() {
         <section className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mt-16">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-default">
             <TrendingUp className="w-6 h-6 text-blue-600" />
-            Content Marketing Strategy
+            Marketing Performance
           </h2>
           <SocialMediaDashboard />
         </section>
